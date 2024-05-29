@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clock-heading{
+    background-color: #f2bfbf;
+    text-align: center;
+    padding: 10px;
+}
+
+.parent{
+  /* background-color: #c7a0a0; */
+  height: 200px;
+  width: 200px;
+  margin-left: 300px;
+  margin-top: 200px;
+  /* background-color: black; */
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -10px;
+    font-size: 1.2rem;
+
+}
+.local{
+    text-align: center;
+    padding: 20px;
+}
+.clock{
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 15px 25px;
+    margin-left: 240px;
+    margin-top: -200px;
+    border-radius: 10px;
+    background-color: orange;
+
+}
+@media screen and (max-width: 600px)
+{
+    .parent{
+        margin-left: 80px;
+    }
+    
+}
